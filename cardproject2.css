@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Assistant", sans-serif;
+    text-transform: uppercase;
+    color: #282c3f;
+    font-weight: bold;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 340px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    box-sizing: border-box;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+.product_details{
+    text-align: center;
+}
+.product_details h2,p{
+    margin: 10px;
+}
+.product_details h2{
+    font-size: 25px;
+}
+.product_details p{
+    font-size: 12px;
+}
+.product_action{
+    width: 90%;
+    height: 50px;
+    background-color: rgb(101, 153, 206);
+    border-radius: 4.5px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+}
+.left_box{
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+    margin-left: 3%;
+}
+.firstbox{
+    display: flex;
+    flex-direction: column;
+}
+.iconbox{
+    align-self: center;
+}
+.right_box{
+    margin-right: 3%;
+}
+.right_box a{
+    text-decoration: none;
+    color: rgb(44, 31, 14);
+}
+.right_box a:hover{
+    color: rgb(255, 252, 249);
+}
+#payment{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(4, 75, 4);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.cancel{
+    margin-bottom: 30px;
+}
+.cancel a{
+    text-decoration: none;
+    font-size: small;
+}
