@@ -131,3 +131,60 @@ width: 100%;
     text-align: end;
     padding: 15px;
 }
+@media screen and (max-width: 768px) {
+    header {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav_bar {
+      min-width: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .search_bar {
+      min-width: auto;
+      width: 80%;
+    }
+  
+    .action_bar {
+      min-width: auto;
+      margin-right: 2%;
+      margin-top: 10px;
+    }
+    .action_container{
+        padding: 5px;
+    }
+    .category_heading {
+      font-size: 1.5em;
+    }
+  
+    .category_items {
+      justify-content: center;
+    }
+  
+    .sale_item {
+      width: 100%;
+    }
+  }
+  
+  /* Additional Responsive Adjustments */
+  @media screen and (max-width: 480px) {
+    .logo_container {
+      margin-left: 2%;
+    }
+  
+    .action_bar {
+      margin-right: 1%;
+    }
+  
+    .search_icon {
+      padding: 8px;
+    }
+  
+    .copywrite {
+      padding: 10px;
+    }
+  }
